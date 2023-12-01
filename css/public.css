@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    background: #ffffff;
+}
+.container{
+    width: 1450px;
+    margin: 0 auto;
+    background: #e1dcdc;
+}
+.logo>img{
+    width: 100%;
+    height: 100px;
+}
+nav{
+    background-color: rgb(0, 106, 255);
+    width: 100%;
+    height: 40px;
+}
+nav>ul{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 7px;
+}
+nav>ul>li{
+    list-style: none;
+    float: left;
+    margin-left: 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.content{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+a:hover{
+    color:rgb(248, 45, 45) !important;
+}

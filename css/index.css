@@ -1,0 +1,149 @@
+dl{
+    display: none;
+}
+.dynamic{
+    float: left;
+}
+.dynamic>button{
+    float: right;
+    border: none;
+    text-align: center;
+}
+.dynamic>ul{
+    margin-top: 5px;
+}
+.dynamic>ul>li{
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 2px;
+    padding: 2px;
+    color: black;
+    border-bottom: dotted;
+}
+.dynamic>ul>li>span{
+    float: right;
+}
+.dynamic>ul>li:nth-child(2n-1){
+    background-color: rgb(220, 220, 220);
+}
+.dynamic>ul>li:nth-child(2n){
+background-color: rgb(197, 197, 195);
+}
+.dynamic:nth-child(2){
+    width: 60%;
+    margin-left: 2%;
+    color: rgb(0, 132, 255);
+    font-size: 23px;
+}
+.dynamic:nth-child(2)>button{
+    font-size: 18px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+.dynamic:nth-child(3){
+    width: 30%;
+    color: rgb(0, 132, 255);
+    font-size: 18px;
+}
+.dynamic:nth-child(3)>ul>li{
+    border-bottom: none;
+}
+.dynamic:nth-child(4){
+    width: 30%;
+    color: rgb(0, 132, 255);
+    font-size: 18px;
+    margin-left: 40px;
+}
+.dynamic:nth-child(4)>ul>li{
+    border-bottom: none;
+}
+.dynamic:last-child{
+    width: 35%;
+    color: rgb(0, 132, 255);
+    margin-left: 20px;
+    font-size: 18px;
+    float: left;
+}
+.card>ul>li>a>h5{
+    margin-top: 2px;
+    color: black;
+}
+.card>ul>li{
+    width: 45%;
+    margin-left: 15px;
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.system>ul>li{
+    list-style: none;
+    text-align: center;
+}
+.card{
+    width: 100%;
+}
+.system{
+    width: 100%;
+}
+.other{
+    float: none;
+    width: 100%;
+    height: 60px;
+    background: aliceblue;
+    margin:5PX 0;
+}
+.other>input{
+    margin:10px 8%;
+    width: 235px;
+    height: 18px;
+    float: left;
+}
+.footer{
+    float: none;
+    margin-top: 10px;
+    width: 70%;
+    height: 110px;
+    margin: 0 auto;
+}
+.footer>p{
+    font-size: 20px;
+    color: rgb(36, 36, 36)
+
+}
+.content{
+    height: 860px;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+.slidesshow{
+    float: left;
+    width: 38%;
+    height: 358px;
+    overflow: hidden;
+}
+.box{
+    width: 2200px;
+    height: 352px;
+    animation: move 20s infinite;
+}
+@keyframes move {
+   0%{
+       transform: translateX(0);
+   }
+   30%{
+       transform: translateX(-722px);
+   }
+   60%{
+       transform: translateX(-1422px);
+   }
+   100%{
+       transform: translateX(-1422px);
+   }
+}
+.box img{
+  float: left;
+ height: 352px;
+ width: 722px;
+}
